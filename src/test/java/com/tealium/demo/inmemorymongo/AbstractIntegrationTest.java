@@ -1,4 +1,4 @@
-package com.tealium.tutorial.inmemorymongo;
+package com.tealium.demo.inmemorymongo;
 
 import com.mongodb.DB;
 import com.mongodb.Mongo;

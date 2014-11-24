@@ -1,4 +1,4 @@
-package com.tealium.tutorial.inmemorymongo.service;
+package com.tealium.demo.inmemorymongo.service;
 
 import org.codehaus.jettison.json.JSONException;
 import org.codehaus.jettison.json.JSONObject;
@@ -11,7 +11,9 @@ import com.google.inject.Guice;
 import com.google.inject.Injector;
 import com.google.inject.name.Names;
 import com.mongodb.MongoClient;
-import com.tealium.tutorial.inmemorymongo.AbstractIntegrationTest;
+import com.tealium.demo.inmemorymongo.AbstractIntegrationTest;
+import com.tealium.demo.inmemorymongo.service.AccountService;
+import com.tealium.demo.inmemorymongo.service.AccountServiceImpl;
 
 public class AccountServiceTest extends AbstractIntegrationTest {
 private static final String KEY_VALUE2 = "20001010";
